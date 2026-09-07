@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Maxim Brashenko — Resume</title>
+  <style>
+    :root { --ink:#17191c; --muted:#5f6772; --accent:#1769aa; --rule:#d9dee5; }
+    * { box-sizing: border-box; }
+    html { background:#eef1f4; }
+    body { margin:0; color:var(--ink); font:9.8pt/1.31 Arial, Helvetica, sans-serif; }
+    main { position:relative; width:210mm; min-height:297mm; margin:18px auto; padding:12mm 15mm 10mm; background:#fff; box-shadow:0 3px 20px #0002; }
+    header { border-bottom:2px solid var(--ink); padding-bottom:4mm; margin-bottom:4mm; }
+    h1 { margin:0 0 1mm; font-size:25pt; line-height:1; letter-spacing:-.6px; }
+    .headline { font-size:12.2pt; font-weight:700; }
+    .contact { margin-top:2.2mm; color:var(--muted); font-size:9.3pt; }
+    a { color:var(--accent); text-decoration:underline; text-decoration-thickness:.65px; text-underline-offset:1.5px; }
+    section { margin-top:3.7mm; }
+    h2 { margin:0 0 2.4mm; color:var(--accent); font-size:9.4pt; line-height:1; letter-spacing:1.25px; text-transform:uppercase; }
+    p { margin:0; }
+    .summary { font-size:10pt; }
+    .skills { color:#30353b; }
+    .languages { margin-top:.8mm; color:var(--muted); font-size:9.1pt; }
+    .job { margin-top:2.8mm; break-inside:avoid; }
+    .job:first-of-type { margin-top:0; }
+    .job-head { display:grid; grid-template-columns:1fr auto; gap:10mm; align-items:baseline; }
+    .role { font-size:11pt; font-weight:700; }
+    .company { font-weight:700; }
+    .dates { color:var(--muted); font-size:9.1pt; white-space:nowrap; }
+    ul { margin:1.3mm 0 0; padding-left:4.8mm; }
+    li { margin:.55mm 0; padding-left:.7mm; }
+    .note { color:var(--muted); font-size:9.1pt; }
+    .document-footer { position:absolute; right:15mm; bottom:4mm; color:var(--muted); font-size:7.4pt; }
+    @page { size:A4; margin:0; }
+    @media print {
+      html, body { background:#fff; }
+      main { margin:0; box-shadow:none; }
+    }
+    @media (max-width: 800px) {
+      html { background:#fff; }
+      main { width:auto; min-height:0; margin:0; padding:24px; box-shadow:none; }
+      .job-head { grid-template-columns:1fr; gap:2px; }
+    }
+  </style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>Maxim Brashenko</h1>
+    <div class="headline">AI-Native Engineer · Agent Infrastructure, Context Engineering &amp; Developer Experience</div>
+    <div class="contact">
+      Almaty, Kazakhstan &nbsp;·&nbsp;
+      <a href="mailto:maxim.brashenko+cv@gmail.com">maxim.brashenko+cv@gmail.com</a> &nbsp;·&nbsp;
+      <a href="https://www.linkedin.com/in/j2h4u/">linkedin.com/in/j2h4u</a> &nbsp;·&nbsp;
+      <a href="https://github.com/j2h4u">github.com/j2h4u</a>
+    </div>
+  </header>
+
+  <section>
+    <h2>Profile</h2>
+    <p class="summary">Hands-on engineer and active open-source contributor building AI platforms and developer tools for software engineers, coding agents, and AI-assisted product teams. Turns ambiguous or fragile systems into reliable infrastructure, with experience across agent experience, RAG and hybrid retrieval, MCP, context engineering, automation, ETL, and on-prem AI.</p>
+  </section>
+
+  <section>
+    <h2>Core expertise</h2>
+      <p class="skills">Agent infrastructure · AI product engineering · Developer experience · Agent experience · LLM applications · Agentic systems · RAG and hybrid retrieval · Context engineering · MCP · AI-assisted development · Python · TypeScript · Go · Rust · Bash · Linux · Docker</p>
+      <p class="languages"><strong>Languages:</strong> Russian (native) · English (intermediate)</p>
+  </section>
+
+  <section>
+    <h2>Selected Experience · 2019–Present</h2>
+
+    <article class="job">
+      <div class="job-head">
+        <div><span class="role">Technical Partner &amp; Principal Product Engineer</span> · <a class="company" href="https://knowlu.me/">Knowlume</a></div>
+        <div class="dates">Mar 2026 — Present</div>
+      </div>
+      <ul>
+        <li>Own the engineering side of an early-stage SaaS product in direct partnership with the founder, from product capabilities and architecture through deployment, infrastructure, integrations, and production support.</li>
+        <li>Stabilized critical workflows while reducing some operations from tens of minutes to seconds, and continue to improve the system without interrupting active product development.</li>
+      </ul>
+    </article>
+
+    <article class="job">
+      <div class="job-head">
+        <div><span class="role">Independent AI Platform &amp; Product Engineer</span> · <span class="company">Self-employed</span></div>
+        <div class="dates">Aug 2025 — Present</div>
+      </div>
+      <ul>
+        <li>Build internal platforms and agent-native developer tools that help engineers, generalists, and coding agents understand codebases, review changes, manage context, and ship software more reliably.</li>
+        <li>Deliver MCP integrations, RAG and retrieval systems, data pipelines, on-prem AI, self-hosted Windmill workflows, and brownfield product recovery for founders and small teams.</li>
+      </ul>
+    </article>
+
+    <article class="job">
+      <div class="job-head">
+        <div><span class="role">Technical Partner</span> · <span class="company">Khabaroff Studio</span></div>
+        <div class="dates">Nov 2025 — Mar 2026</div>
+      </div>
+      <ul>
+        <li>Owned technical delivery for private B2B projects: clarified requirements, designed architectures, built integrations, and delivered working systems.</li>
+        <li>Stabilized and redesigned an ETL pipeline processing millions of Excel rows: reduced runtime from 20–30 hours to 8 minutes, made results deterministic, and uncovered errors in earlier manual calculations.</li>
+      </ul>
+    </article>
+
+    <article class="job">
+      <div class="job-head">
+          <div><span class="role">Lead ASIC Firmware Engineer → Development Team Lead → Senior Software Engineer</span> · <span class="company">Hiveon</span></div>
+        <div class="dates">Oct 2019 — Jul 2025</div>
+      </div>
+      <ul>
+        <li>Joined after contributing improvements to Hiveon’s public projects, moved from technical support into ASIC firmware within two weeks, and developed operational tooling in Go and Bash across heterogeneous mining hardware.</li>
+        <li>Led a 5–6 person engineering team while remaining a hands-on contributor; later returned to a senior individual-contributor role with staff-level scope, reporting directly to the CTO.</li>
+        <li>Reverse-engineered device behavior, reviewed code, resolved production incidents, mentored engineers and QA specialists, and helped teams navigate a complex hardware domain.</li>
+          <li>Served concurrently as Forward-Deployed Engineer / Technical Success Partner for Hiveon partners WATTUM (Texas, USA), Adaptic (Sweden), and Block One Technology (Canada), embedding with client teams and turning field failures into product improvements.</li>
+      </ul>
+    </article>
+  </section>
+
+  <section>
+    <h2>Developer tooling, open source &amp; AI projects</h2>
+    <p class="note"><strong>Open source:</strong> Contributor to ctx.rs, Hermes Agent, Context Gateway, Git. Ship. Done., and OpenClaw.</p>
+    <ul class="note">
+      <li><strong>Agent-native engineering:</strong> Enji Guard CLI/MCP for automated code audits; Cross AI Review for adversarial multi-agent review and planning.</li>
+      <li><strong>Coding-agent DX:</strong> tools for context optimization, repository analysis, session management, AI-facing documentation, Claude Code workflows, and safe codebase exploration.</li>
+      <li><strong>MCP &amp; retrieval:</strong> multiple agent-facing MCP servers; dotmd hybrid RAG combining semantic search, BM25, knowledge graphs, RRF, and cross-encoder reranking.</li>
+    </ul>
+  </section>
+  <footer class="document-footer">Current version: <a href="https://j2h4u.github.io/resume/">j2h4u.github.io/resume/</a></footer>
+</main>
+</body>
+</html>
