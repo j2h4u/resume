@@ -32,12 +32,13 @@
     ul { margin:1.3mm 0 0; padding-left:4.8mm; }
     li { margin:.55mm 0; padding-left:.7mm; }
     .note { color:var(--muted); font-size:9.1pt; }
-    .document-footer { position:absolute; right:15mm; bottom:4mm; color:var(--muted); font-size:7.4pt; }
+    .document-footer { display:none; position:absolute; right:15mm; bottom:4mm; color:var(--muted); font-size:7.4pt; }
     @page { size:A4; margin:0; }
     @media print {
       html, body { background:#fff; }
       main { margin:0; box-shadow:none; }
       .download-pdf { display:none; }
+      .document-footer { display:block; }
     }
     @media (max-width: 800px) {
       html { background:#fff; }
