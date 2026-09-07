@@ -3,34 +3,36 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <title>Maxim Brashenko — Resume</title>
   <style>
     :root { --ink:#17191c; --muted:#5f6772; --accent:#1769aa; --rule:#d9dee5; }
     * { box-sizing: border-box; }
     html { background:#eef1f4; }
-    body { margin:0; color:var(--ink); font:9.8pt/1.31 Arial, Helvetica, sans-serif; }
-    main { position:relative; width:210mm; min-height:297mm; margin:18px auto; padding:12mm 15mm 10mm; background:#fff; box-shadow:0 3px 20px #0002; }
-    header { border-bottom:2px solid var(--ink); padding-bottom:4mm; margin-bottom:4mm; }
+    body { margin:0; color:var(--ink); font:9.5pt/1.25 Arial, Helvetica, sans-serif; }
+    main { position:relative; width:210mm; min-height:297mm; margin:18px auto; padding:10mm 15mm 9mm; background:#fff; box-shadow:0 3px 20px #0002; }
+    header { border-bottom:2px solid var(--ink); padding-bottom:3.5mm; margin-bottom:3.5mm; }
     h1 { margin:0 0 1mm; font-size:25pt; line-height:1; letter-spacing:-.6px; }
     .headline { font-size:12.2pt; font-weight:700; }
     .contact { margin-top:2.2mm; color:var(--muted); font-size:9.3pt; }
     a { color:var(--accent); text-decoration:underline; text-decoration-thickness:.65px; text-underline-offset:1.5px; }
     .download-pdf { position:fixed; top:18px; right:18px; z-index:1; padding:8px 12px; border-radius:5px; background:var(--accent); color:#fff; font-size:9.2pt; font-weight:700; text-decoration:none; box-shadow:0 2px 10px #0002; }
     .download-pdf:hover { background:#12568c; }
-    section { margin-top:3.7mm; }
+    section { margin-top:3mm; }
     h2 { margin:0 0 2.4mm; color:var(--accent); font-size:9.4pt; line-height:1; letter-spacing:1.25px; text-transform:uppercase; }
     p { margin:0; }
     .summary { font-size:10pt; }
     .skills { color:#30353b; }
+    .ai-stack { margin-top:.8mm; color:#30353b; font-size:9.1pt; }
     .languages { margin-top:.8mm; color:var(--muted); font-size:9.1pt; }
-    .job { margin-top:2.8mm; break-inside:avoid; }
+    .job { margin-top:2.2mm; break-inside:avoid; }
     .job:first-of-type { margin-top:0; }
     .job-head { display:grid; grid-template-columns:1fr auto; gap:10mm; align-items:baseline; }
     .role { font-size:11pt; font-weight:700; }
     .company { font-weight:700; }
     .dates { color:var(--muted); font-size:9.1pt; white-space:nowrap; }
-    ul { margin:1.3mm 0 0; padding-left:4.8mm; }
-    li { margin:.55mm 0; padding-left:.7mm; }
+    ul { margin:1mm 0 0; padding-left:4.8mm; }
+    li { margin:.4mm 0; padding-left:.7mm; }
     .note { color:var(--muted); font-size:9.1pt; }
     .document-footer { display:none; position:absolute; right:15mm; bottom:4mm; color:var(--muted); font-size:7.4pt; }
     @page { size:A4; margin:0; }
@@ -70,6 +72,7 @@
   <section>
     <h2>Core expertise</h2>
       <p class="skills">Agent infrastructure · AI product engineering · Developer experience · Agent experience · LLM applications · Agentic systems · RAG and hybrid retrieval · Context engineering · MCP · AI-assisted development · Python · TypeScript · Go · Rust · Bash · Linux · Docker</p>
+      <p class="ai-stack"><strong>AI-native development since 2022:</strong> daily use of Codex, OpenCode, Claude Code, Hermes, and Prime Agent across coding, review, debugging, DevOps, infrastructure, and systems administration.</p>
       <p class="languages"><strong>Languages:</strong> Russian (native) · English (intermediate)</p>
   </section>
 
@@ -115,7 +118,7 @@
         <div class="dates">Oct 2019 — Jul 2025</div>
       </div>
       <ul>
-        <li>Joined after contributing improvements to Hiveon’s public projects, moved from technical support into ASIC firmware within two weeks, and developed operational tooling in Go and Bash across heterogeneous mining hardware.</li>
+        <li>Joined after contributing improvements to Hiveon’s public projects, moved from technical support into ASIC firmware within two weeks, and developed operational tooling in Go and Bash across heterogeneous ASIC and GPU mining hardware.</li>
         <li>Led a 5–6 person engineering team while remaining a hands-on contributor; later returned to a senior individual-contributor role with staff-level scope, reporting directly to the CTO.</li>
         <li>Reverse-engineered device behavior, reviewed code, resolved production incidents, mentored engineers and QA specialists, and helped teams navigate a complex hardware domain.</li>
           <li>Served concurrently as Forward-Deployed Engineer / Technical Success Partner for Hiveon partners WATTUM (Texas, USA), Adaptic (Sweden), and Block One Technology (Canada), embedding with client teams and turning field failures into product improvements.</li>
