@@ -15,6 +15,8 @@
     .headline { font-size:12.2pt; font-weight:700; }
     .contact { margin-top:2.2mm; color:var(--muted); font-size:9.3pt; }
     a { color:var(--accent); text-decoration:underline; text-decoration-thickness:.65px; text-underline-offset:1.5px; }
+    .download-pdf { position:fixed; top:18px; right:18px; z-index:1; padding:8px 12px; border-radius:5px; background:var(--accent); color:#fff; font-size:9.2pt; font-weight:700; text-decoration:none; box-shadow:0 2px 10px #0002; }
+    .download-pdf:hover { background:#12568c; }
     section { margin-top:3.7mm; }
     h2 { margin:0 0 2.4mm; color:var(--accent); font-size:9.4pt; line-height:1; letter-spacing:1.25px; text-transform:uppercase; }
     p { margin:0; }
@@ -35,15 +37,18 @@
     @media print {
       html, body { background:#fff; }
       main { margin:0; box-shadow:none; }
+      .download-pdf { display:none; }
     }
     @media (max-width: 800px) {
       html { background:#fff; }
+      .download-pdf { position:static; display:table; margin:16px 24px 0 auto; }
       main { width:auto; min-height:0; margin:0; padding:24px; box-shadow:none; }
       .job-head { grid-template-columns:1fr; gap:2px; }
     }
   </style>
 </head>
 <body>
+<a class="download-pdf" href="maxim-brashenko-resume.pdf" download>Download PDF</a>
 <main>
   <header>
     <h1>Maxim Brashenko</h1>
